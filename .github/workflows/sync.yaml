@@ -8,6 +8,8 @@ on:
 
 jobs:
   sync_latest_from_upstream:
+    permissions:
+        contents: write
     runs-on: ubuntu-latest
     name: Sync latest commits from upstream repo
 
@@ -15,7 +17,7 @@ jobs:
     # REQUIRED step
     # Step 1: run a standard checkout action, provided by github
     - name: Checkout target repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: master
 
