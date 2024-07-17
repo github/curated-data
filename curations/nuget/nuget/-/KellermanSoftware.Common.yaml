@@ -1,8 +1,8 @@
 coordinates:
-  name: Antlr2.Runtime
+  name: KellermanSoftware.Common
   provider: nuget
   type: nuget
 revisions:
-  2.7.7.2:
+  1.15.0:
     licensed:
-      declared: ANTLR-PD-fallback
+      declared: MIT
