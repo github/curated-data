@@ -1,0 +1,9 @@
+coordinates:
+    type: npm
+    provider: npmjs
+    namespace: '@img'
+    name: sharp-win32-x64
+revisions:
+    0.34.1:
+        licensed:
+            declared: Apache 2.0
