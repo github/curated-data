@@ -1,4 +1,8 @@
 name: "Check for conflicts"
+
+permissions:
+  contents: read
+
 on:
   push:
     branches:
@@ -11,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: check if PRs have conflicts
-        uses: eps1lon/actions-label-merge-conflict@releases/2.x
+        uses: eps1lon/actions-label-merge-conflict@fd1f295ee7443d13745804bc49fe158e240f6c6e
         with:
           dirtyLabel: "merge conflict"
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
