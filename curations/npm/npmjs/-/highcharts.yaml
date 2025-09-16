@@ -1,7 +1,8 @@
 coordinates:
-  name: highcharts
-  provider: npmjs
   type: npm
+  provider: npmjs
+  namespace: ""
+  name: highcharts
 revisions:
   4.2.1:
     licensed:
@@ -30,24 +31,6 @@ revisions:
   5.0.1:
     licensed:
       declared: OTHER
-  5.0.10:
-    licensed:
-      declared: OTHER
-  5.0.11:
-    licensed:
-      declared: OTHER
-  5.0.12:
-    licensed:
-      declared: OTHER
-  5.0.13:
-    licensed:
-      declared: OTHER
-  5.0.14:
-    licensed:
-      declared: OTHER
-  5.0.15:
-    licensed:
-      declared: OTHER
   5.0.2:
     licensed:
       declared: OTHER
@@ -70,6 +53,24 @@ revisions:
     licensed:
       declared: OTHER
   5.0.9:
+    licensed:
+      declared: OTHER
+  5.0.10:
+    licensed:
+      declared: OTHER
+  5.0.11:
+    licensed:
+      declared: OTHER
+  5.0.12:
+    licensed:
+      declared: OTHER
+  5.0.13:
+    licensed:
+      declared: OTHER
+  5.0.14:
+    licensed:
+      declared: OTHER
+  5.0.15:
     licensed:
       declared: OTHER
   6.0.0:
@@ -204,3 +205,6 @@ revisions:
   9.3.2:
     licensed:
       declared: OTHER
+  11.4.3:
+    licensed:
+      declared: https://shop.highcharts.com/license
