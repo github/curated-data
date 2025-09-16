@@ -1,26 +1,19 @@
 coordinates:
-  name: gsap
-  provider: npmjs
   type: npm
+  provider: npmjs
+  namespace: ""
+  name: gsap
 revisions:
   1.20.3:
-    files:
-      - license: OTHER
-        path: package/package.json
-    licensed:
-      declared: OTHER
-  2.0.2:
     licensed:
       declared: OTHER
   1.20.6:
     licensed:
       declared: OTHER
+  2.0.2:
+    licensed:
+      declared: OTHER
   2.1.2:
-    files:
-      - license: OTHER
-        path: package/bower.json
-      - license: OTHER
-        path: package/package.json
     licensed:
       declared: OTHER
   3.5.1:
@@ -30,8 +23,11 @@ revisions:
     licensed:
       declared: OTHER
   3.6.1:
-   licensed:
+    licensed:
       declared: OTHER
   3.8.0:
     licensed:
       declared: OTHER
+  3.12.7:
+    licensed:
+      declared: 'Standard ''no charge'' license: https://gsap.com/standard-license.'
