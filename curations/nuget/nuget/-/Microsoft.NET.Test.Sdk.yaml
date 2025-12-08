@@ -1,12 +1,13 @@
 coordinates:
-  name: Microsoft.NET.Test.Sdk
-  provider: nuget
   type: nuget
+  provider: nuget
+  namespace: ""
+  name: Microsoft.NET.Test.Sdk
 revisions:
-  16.11.0:
+  16.9.4:
     licensed:
       declared: LicenseRef-scancode-ms-net-library-2019-06
-  16.9.4:
+  16.11.0:
     licensed:
       declared: LicenseRef-scancode-ms-net-library-2019-06
   17.0.0:
@@ -29,4 +30,4 @@ revisions:
       declared: LicenseRef-scancode-ms-net-library-2019-06
   17.5.0:
     licensed:
-      declared: LicenseRef-scancode-ms-net-library-2019-06
+      declared: MIT
