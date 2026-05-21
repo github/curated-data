@@ -1,6 +1,7 @@
 name: 'Upstream Sync'
 
 permissions:
+  # TODO(supply-chain-security): Human review: confirm this scheduled sync still requires contents: write and narrow if the sync action supports lower privileges.
   contents: write
 
 on:
@@ -12,6 +13,7 @@ on:
 jobs:
   sync_latest_from_upstream:
     permissions:
+        # TODO(supply-chain-security): Human review: confirm this job still requires contents: write for upstream sync.
         contents: write
     runs-on: ubuntu-latest
     name: Sync latest commits from upstream repo
