@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - main
+  # TODO(supply-chain-security): Human review: this workflow uses pull_request_target; keep permissions minimal and do not check out or run untrusted PR code here.
   pull_request_target:
 
 
